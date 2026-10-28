@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="/fonts/troika/troika.otf">
+</head>
+<body>
+    <main>
+        <section class="form-window">
+            <div class="img-placeholder">
+                <div class="logo">
+                    <img src="/img/odin-lined.png">
+                    <span>ODIN</span>
+                </div>
+                <div class="credits">Photo by <a href="https://unsplash.com/@yunustug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yunus Tuğ</a> on <a href="https://unsplash.com/photos/person-and-car-in-snowy-landscape-HA3X_sDhAgk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+            </div>
+            <div class="form-container">
+                <div class="disclaimer">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores incidunt dolor nam hic laborum ducimus! Autem tenetur explicabo temporibus similique qui provident sit dolores consequatur, magni error </p>
+                    <p>lorem ipsum dolor, sit amet</p>
+                </div>
+                <div class="form-placeholder">
+                    <legend>Let's do this!</legend>
+                    <form id="signup-form" action="null" method="post">
+                        
+                        <div>
+                            <div class="item">
+                                <label for "first-name">First Name: </label>
+                                <input type="text" name="first-name" id="first-name">
+                            </div>
+                            <div class="item">
+                                <label for "last-name">Last Name: </label>
+                                <input type="text" name="last-name" id="last-name">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item">
+                                <label for "e-mail">e-mail: </label>
+                                <input type="text" name="e-mail" id="e-mail">
+                            </div>
+                            <div class="item">
+                                <label for "phone-number">Phone Number: </label>
+                                <input type="number" name="phone-number" id="phone-number">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item">
+                                <label for "password">Password: </label>
+                                <input type="password" name="password" id="password" required >
+                                <p></p>
+                            </div>
+                            <div class="item">
+                                <label for "confirm-password">Confirm password: </label>
+                                <input type="password" name="confirm-password" id="confirm-password" required>
+                                <p></p>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="footer">
+                    <p class="form">
+                        <input form="signup-form" type="submit" value="Create Account">
+                    </p>
+                    <p>Already have an account? <a>Log in</a></p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/js/script.js" defer></script>
+</body>
+</html>
